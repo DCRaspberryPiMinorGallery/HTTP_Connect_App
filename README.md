@@ -6,12 +6,17 @@ https://leechul.simpleworld.kr/entry/linux-C%EC%96%B8%EC%96%B4-curl-%EC%82%AC%EC
 
 curl 라이브러리 설치
 
+----------------------------------------------------------------------------------
+
 wget https://curl.haxx.se/download/curl-7.49.1.tar.gz
+
 tar zxvf curl-7.49.1.tar.gz
+
 cd curl-7.49.1
+
 ./configure
+
 make
+
 sudo make install
-
-
 
